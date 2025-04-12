@@ -1,0 +1,206 @@
+
+.navibara{
+    background-color: rgb(12, 6, 41);
+}
+ul li a{
+    color: black;
+}
+ul li a:hover{
+    color:rgb(255, 145, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.incons i{
+    margin: 20px;
+}
+.titre{
+    color:rgb(255, 145, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image1 {
+    color: aliceblue;
+    margin-left: -65px;
+    margin-top: 0%;
+    width: 210vh;
+    height: 101vh;
+    background-image: url("./../assets/qsdjfqkjz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+    text-align: center;
+}
+.image2 {
+    color: aliceblue;
+    margin-left: -65px;
+    margin-top: 0%;
+    width: 210vh;
+    height: 101vh;
+    background-image: url("./../assets/skgjsdk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+    text-align: center;
+}
+
+.buttons {
+    font-size: 18px;
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: transparent;  
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.butto:hover {
+    background-color: rgb(255, 145, 0);
+    
+}
+.butto i:hover {
+    color: rgb(2, 2, 2);
+    
+}
+.butto i{ 
+    color: rgb(248, 248, 248);
+}
+
+.b1{    
+    background-color: white; 
+}
+.b2{
+    background-color:rgb(255, 145, 0);
+}
+.abouts-home{
+    background-color: rgb(255, 253, 253);
+    padding-top: -50% !important;
+    color: rgb(2, 3, 3);
+    margin-left: -65px;
+    margin-top: 20px;
+    
+    width: 210vh;
+    /* height: 95vh; */
+ } 
+.abouts_Liste{
+    
+    /* background-color:rgb(255, 145, 0); */
+    text-align: left;
+    color: rgb(34, 33, 33);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+span{
+    color:rgb(255, 145, 0);
+}
+span h4{
+    color:rgb(255, 145, 0);
+    margin-top: 5%;
+}
+.dddd{
+   
+    margin:0px 55px;
+     
+}
+.ddd{
+    margin:0px 55px; 
+}
+.dddd li:hover{
+   
+    background-color:rgb(233, 186, 125);
+    text-align: center;
+    border: 7px rgb(233, 186, 125) solid;
+    color:rgb(255, 255, 255);
+
+}
+
+.dddd li{
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    padding:10px ;
+    margin:10px ;
+    display: inline-block;
+    border: 7px rgb(36, 35, 35) double;
+    
+}
+.dddd li i{
+    font-size: 8vh;
+}
+.ddd li i{
+    font-size: 8vh;
+}
+
+.ddd li{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    padding-top:10px ;
+    margin:10px ;
+    display: inline-block;
+    border: 7px rgb(153, 152, 152) double;
+   
+}
+
+
+
+/* room */
+.dd{
+    padding:10px ;
+}
+.dd li{
+    box-shadow: 2px 1px 10px rgb(82, 82, 82);
+    border: 2px transparent solid;
+    width: 28%;
+    height: 90%;
+    padding-top:10px ;
+    margin:10px ;
+    display: inline-block;
+    border: 2px transparent solid;
+    background-color:rgb(233, 241, 219);
+}
+.dd li p{
+   text-align: left;
+   color:rgb(80, 76, 70);
+}
+.dd .titleS{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:2%;
+    padding: 1%;
+}
+
+.dd img{
+    margin-top: -3%;
+    background-color: brown;
+    width: 100% !important;
+    height: 25%;
+    
+}
+span {
+    color:rgb(255, 145, 0);
+    
+
+}
+.dd .icons{
+    font-size: 16px;
+    
+}
+.hh{
+    padding:20px ;
+}
+.sous_titleS{
+    margin-top: 5%;
+}
+.visible{
+    color: transparent;
+}
+.but{
+    margin-left: 9%;
+}
+
+

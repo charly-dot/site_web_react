@@ -1,0 +1,30 @@
+.dddd{
+   
+    margin:0px 55px;
+     
+}
+.dddd li{
+    box-shadow: 2px 1px 15px rgb(212, 209, 209);
+    text-align: center;
+    width: 320px;
+    height: 240px;
+    padding:25px ;
+    margin:10px 40px ;
+    display: inline-block;
+    border: 7px rgb(255, 255, 255) double;
+}
+.dddd li i{
+    font-size: 8vh;
+}
+.title{
+    font-family: Arial rgb(41, 41, 41);
+}
+.sous_title{
+    font-family: Arial ;
+}
+.image{
+    border: 7px rgb(182, 180, 180) double;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+}

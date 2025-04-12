@@ -1,0 +1,24 @@
+.formulaire{
+
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    margin:3% ;
+    margin-top:5% ;
+    border-radius: 2px;
+    
+    box-shadow: 2px 1px 10px rgb(82, 82, 82);
+}
+.formulaire input, #buton{
+    margin-top: 30px;
+    margin-left:10px;
+}
+
+#buton{
+    background-color: rgb(255, 145, 0);
+    border: 1px solid rgb(255, 145, 0);
+}
+.hhhh{
+    margin-top: -2% !important;
+}

@@ -1,0 +1,71 @@
+.d{
+    padding:10px ;
+    margin-left: 4%;
+    
+}
+.d li{
+    box-shadow: 2px 1px 10px rgb(82, 82, 82);
+    border: 2px transparent solid;
+    width: 23%;
+    height: 90%;
+    padding-top:10px ;
+    margin:10px ;
+    display: inline-block;
+    border: 2px transparent solid;
+    margin-left: 1%;
+    background-color:rgb(233, 241, 219);
+}
+.dd li p{
+   text-align: left;
+   color:rgb(80, 76, 70);
+}
+
+.iconsss{
+    display: inline-flex;
+    font-size: 20px;
+    margin-top: -50px;
+}
+.iconss{
+    
+    background-color:rgb(255, 145, 0);
+    width: 40px;
+    height:  35px;
+    color: rgb(255, 255, 255);
+}
+
+.d .titleS{
+    font-size: 20px;
+    font-family: Verdana;
+    margin-left:2%;
+    padding: 1%;
+}
+
+.d img{
+    margin-top: -3%;
+    background-color: rgb(24, 52, 104);
+    width: 100% !important;
+    height: 250px;
+    
+}
+
+.formulai {
+    text-align: center;
+}
+.inputy{
+    width: 400px !important;
+    background-color: transparent;
+}
+.form{
+    width: 600px;
+    padding: 0% 5%;
+    margin-left: 30%;
+    z-index: 2!important;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+   
+    margin-top:5% ;
+    border-radius: 2px;
+    box-shadow: 2px 1px 10px rgb(82, 82, 82);
+}
