@@ -1,8 +1,8 @@
 import "./../style/staff.css";
-import image1 from "../assets/20240401_111757.jpg";
-import image2 from "../assets/IMG_20230705_112110.jpg";
-import image3 from "../assets/IMG_20230709_152027.jpg";
-import image4 from "../assets/Snapchat-1912045420.jpg";
+import image1 from "../assets/istockphoto-1318363878-612x612.jpg"; 
+import image2 from "../assets/images.jpg"; 
+import image3 from "../assets/istockphoto-1168256209-1024x1024.jpg";
+import image4 from "../assets/images (2).jpg";
 
 const liste = [
   {
