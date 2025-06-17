@@ -1,7 +1,7 @@
 import "./../style/navbar.css";
-import image1 from "../assets/oefjqdekj.jpg";
-import image2 from "../assets/FFFF.jpg";
-import image3 from "../assets/kdnbsk.jpg";
+import image1 from "../assets/istockphoto-1213695547-1024x1024.jpg";
+import image2 from "../assets/images (2).jpg";
+import image3 from "../assets/images (1).jpg";
 
 
 const liste = [

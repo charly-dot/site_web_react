@@ -2,10 +2,10 @@ import { div, li } from "framer-motion/client";
 import './../style/navbar.css';
 import './../style/formulaire.css';
 import { Titre } from "./navbar";
-import image1 from "../assets/kdnbsk.jpg";
-import image2 from "../assets/skgjsdk.jpg";
-import image3 from "../assets/vwsjnfj.jpg";
-import image4 from "../assets/zfqkzdcjsdj.jpg";
+import image1 from "../assets/istockphoto-1318363878-612x612.jpg";
+import image2 from "../assets/images.jpg";
+import image3 from "../assets/istockphoto-1168256209-1024x1024.jpg";
+import image4 from "../assets/images (2).jpg";
 
 
 
@@ -90,10 +90,10 @@ export function Formulaire(){
                 </div>
                 <div class="col" style={{margin: "5% 0%"}}>
                     <p>
-                        <img src={image1} alt="xfgsd" style={{ width: "25%", height: "20%", marginLeft: "20px", marginTop: "20px" }} />
-                        <img src={image2} alt="xfgsd" style={{ width: "50%", height: "-10%", marginLeft: "10px", marginTop: "-35px" }} /> <br />
-                        <img src={image4} alt="xfgsd" style={{ width: "48%", height: "200px", marginLeft: "20px" }} />
-                        <img src={image3} alt="xfgsd"  style={{ width: "25%", height: "20%", marginLeft: "20px", marginTop: "20px" }} />
+                        <img src={image3} alt="xfgsd" style={{ width: "40%", height: "20%", marginLeft: "20px", marginTop: "20px" }} />
+                        <img src={image2} alt="xfgsd" style={{ width: "35%",  marginLeft: "5px", marginTop: "-30px" }} /> <br />
+                        <img src={image4} alt="xfgsd" style={{ width: "48%", height: "200px", marginLeft: "20px", marginTop: "10px" }} />
+                        <img src={image1} alt="xfgsd"  style={{ width: "27%", height: "20%", marginLeft: "5px", marginTop: "-70px" }} />
                        
                     </p>
                 </div>
