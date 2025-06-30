@@ -2,9 +2,8 @@
     height: 50vh !important;
     width: 216vh;
     color: aliceblue;
-    margin-left: -65px;
+    margin-left: -68px;
     background-image: url("./../assets/skgjsdk.jpg");
-    /* background-image: url("./../assets/FFFF.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

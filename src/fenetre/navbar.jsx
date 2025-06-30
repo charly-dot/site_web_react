@@ -1,65 +1,74 @@
 import { Link } from "react-router-dom";
 import './../style/navbar.css';
-export  const Titre = "HOTELIER"
+
+export const Titre = "HOTELIER";
+
 export function Navbar() {
+  return (
+    <nav className="navbar navbar-expand-lg navbar-dark shadow fixed-top" style={{ backgroundColor: 'rgb(12, 6, 41)', height: '80px' }}>
+      <div className="container-fluid">
 
-    const props = { 
-        id: 'navibara',
-        className: 'navibara'
-    };
+        {/* Logo */}
+        <a className="navbar-brand fw-bold" style={{ color: 'rgb(255, 145, 0)', fontSize: '35px' }} href="#">
+          {Titre}
+        </a>
 
-    return (
-        <div >
-            <nav className="navbar  fixed-top navibara">
-                <div className="container-fluid">
-                    <h2 className="ml-6 titre">{Titre}</h2>
-                    <p className="ml-6 titre incons"><i class="bi bi-facebook"></i><i class="bi bi-tiktok"></i><i class="bi bi-linkedin"></i><i class="bi bi-youtube"></i><i class="bi bi-instagram"></i><i class="bi bi-whatsapp"></i></p>
-                    <button className="navbar-toggler bg-white icons" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                        
-                    </button>
-                    <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div className="offcanvas-header">
-                            <h3 className="offcanvas-title" id="offcanvasNavbarLabel ml-5">Listes navbar</h3>
-                            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div className="offcanvas-body">
-                        <ul className="navbar-nav justify-content-end p-5">
-                                <li className="nav-item m-4">
-                                    <li><a href="/home">HOME</a></li>
-                                </li>
-                                                           
-                                <li className="nav-item m-4">
-                                    <li><a href="About">ABOUT US</a></li>
-                                </li>
-                                <li className="nav-item m-4">
-                                    <li><a href="room">ROOM</a></li>
-                                </li>
-                                <li className="nav-item m-4">
-                                    <li><a href="service">SERVICES</a></li>
-                                </li>
+        {/* Burger button */}
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style={{ backgroundColor: 'rgb(255, 145, 0)' }}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
 
-                                <li className="nav-item m-4">
-                                <li>
-                                <a href="contact">CONTACTE</a></li>
-                                </li>
-                                <li className="nav-item dropdown m-4">
-                                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        PAGES
-                                    </a>
-                                    <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" href="#">Incription</a></li>
-                                        <li><a className="dropdown-item" href="#">Information</a></li>
-                                        <li><hr className="dropdown-divider" /></li>
-                                        
-                                    </ul>
-                                </li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                </div>
-            </nav>
+        {/* Menu items */}
+        <div className="collapse navbar-collapse" id="navbarMenu">
+          <ul className="navbar-nav mx-auto text-center">
+            <li className="nav-item mx-2">
+              <a className="nav-link text-white" href="/home">HOME</a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link text-white" href="/about">ABOUT US</a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link text-white" href="/room">ROOM</a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link text-white" href="/service">SERVICES</a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link text-white" href="/contact">CONTACT</a>
+            </li>
+          </ul>
+
+          {/* Social icons (mobile only) */}
+          <div className="social-icons-mobile d-lg-none text-center mt-3 mb-2">
+            <a className="nav-link d-inline-block" href="#"><i className="bi bi-facebook" style={iconStyle}></i></a>
+            <a className="nav-link d-inline-block" href="#"><i className="bi bi-linkedin" style={iconStyle}></i></a>
+            <a className="nav-link d-inline-block" href="#"><i className="bi bi-whatsapp" style={iconStyle}></i></a>
+          </div>
         </div>
-    );
+
+        {/* Social icons (desktop only) */}
+        <div className="d-none d-lg-flex align-items-center">
+          <a className="nav-link" href="#"><i className="bi bi-facebook" style={iconStyle}></i></a>
+          <a className="nav-link" href="#"><i className="bi bi-linkedin" style={iconStyle}></i></a>
+          <a className="nav-link" href="#"><i className="bi bi-whatsapp" style={iconStyle}></i></a>
+        </div>
+        
+      </div>
+    </nav>
+  );
 }
+
+const iconStyle = {
+  color: 'rgb(255, 145, 0)',
+  fontSize: '22px',
+  padding: '10px'
+};

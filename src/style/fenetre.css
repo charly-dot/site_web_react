@@ -21,7 +21,7 @@
 
 .dddd li i {
     font-size: 8vh;
-    color: inherit; /* conserve la couleur par défaut */
+    color: inherit;
 }
 
 .image {

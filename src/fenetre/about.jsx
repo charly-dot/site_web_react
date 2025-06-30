@@ -18,7 +18,7 @@ const listess =  [
     {
         image: <i class="bi bi-linkedin"></i>,
         nombre: '1224',
-        type:'Staffs'
+        type:'Staff'
     },
     {
         image:<i class="bi bi-youtube"></i>,
@@ -48,7 +48,7 @@ export function Formulaire(){
                     <input type="text" name="" id="" class="form-control" placeholder="Childs"/>     
                 </div>
                 <div class="col-auto">
-                    <button type="submit" className="buton" id="buton" class="btn btn-primary mb-3">Confirm identity</button>
+                    <button type="submit" className="buton" id="buton" class="btn btn-primary mb-3">Identity</button>
                 </div>
             </form>     
         </p>
@@ -80,20 +80,19 @@ export function Formulaire(){
                                     </div>
                                 </li>
                                 
-                                
                             ))}
-                            <button id="buton">EXPLORE MORE</button>
+                            <button id="butonenoyer">EXPLORE MORE</button>
                         </ul>
                     </div>
                     
 
                 </div>
-                <div class="col" style={{margin: "5% 0%"}}>
+                <div class="col image_abouts">
                     <p>
-                        <img src={image3} alt="xfgsd" style={{ width: "40%", height: "20%", marginLeft: "20px", marginTop: "20px" }} />
-                        <img src={image2} alt="xfgsd" style={{ width: "35%",  marginLeft: "5px", marginTop: "-30px" }} /> <br />
-                        <img src={image4} alt="xfgsd" style={{ width: "48%", height: "200px", marginLeft: "20px", marginTop: "10px" }} />
-                        <img src={image1} alt="xfgsd"  style={{ width: "27%", height: "20%", marginLeft: "5px", marginTop: "-70px" }} />
+                        <img src={image3} alt="xfgsd" style={{ width: "45%", height: "20%", marginLeft: "48px", marginTop: "20px" }} />
+                        <img src={image2} alt="xfgsd" style={{ width: "38%",  marginLeft: "5px", marginTop: "-30px" }} /> <br />
+                        <img src={image4} alt="xfgsd" style={{ width: "50%", height: "200px", marginLeft: "18px", marginTop: "5px" }} />
+                        <img src={image1} alt="xfgsd"  style={{ width: "37%", height: "23%", marginLeft: "5px", marginTop: "-55px" }} />
                        
                     </p>
                 </div>

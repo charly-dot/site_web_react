@@ -25,14 +25,14 @@ export function Home() {
     return (
         <div style={{ margin: 0, padding: 0 }}>
             <Navbar />
-
+    
             <div
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     height: "100vh",
-                    width: "100vw",
+                    width: "1385px",
                     position: "relative",
                     marginLeft: -70,
                     padding: 0,
@@ -50,7 +50,7 @@ export function Home() {
                         alignItems: "center",
                         color: "white",
                         textAlign: "center",
-                        padding: "20px"
+                        padding: "10px"
                     }}
                 >
                     <motion.div
@@ -89,8 +89,8 @@ export function Home() {
                     {sroll2 && (
                         <motion.div
                             initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            transition={{ duration: 0.5 }}
+                            animate={{ opacity: 1}}
+                            transition={{ duration: 2 }}
                             style={{
                                 display: "flex",
                                 gap: "15px",
@@ -122,6 +122,11 @@ export function Home() {
                     <i className="bi bi-chevron-right"></i>
                 </button>
             </div>
+            {window.innerWidth < 1200 && (
+                <div style={{ background: 'red', color: 'white', padding: 20 }}>
+                    Écran trop petit. L'application est optimisée pour les écrans ≥ 1200px.
+                </div>
+                )}
 
             <div className="abouts-home">
                 <About />

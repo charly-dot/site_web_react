@@ -42,8 +42,8 @@ export function Service(){
 
     return <div className="abouts-home" >
         
-        <h5><span>____OUR SERVICE____</span></h5>
-        <h1>Explore Our <span className="titre">SERVICES</span> </h1>
+        <h5 style={{marginLeft:'13%'}}><span>____OUR SERVICE____</span></h5>
+        <h1 style={{marginLeft:'13%'}}>Explore Our <span className="titre">SERVICES</span> </h1>
         <div className="dddd" >
             <ul >
                 {liste.map(listes =>(

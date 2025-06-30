@@ -1,20 +1,46 @@
+/* Mobile styles (max-width: 992px = Bootstrap lg) */
+@media (max-width: 992px) {
+    .navbar-collapse {
+      background-color: rgba(0, 0, 0, 0.9); /* fond sombre */
+      border-radius: 0 0 15px 15px;
+      padding: 15px 10px;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .nav-link {
+      color: white !important;
+      margin: 5px 0;
+    }
+  
+    .nav-link:hover {
+      color: rgb(255, 145, 0) !important;
+    }
+  
+    .social-icons-mobile {
+      background-color: rgba(255, 145, 0, 0.1);
+      padding: 10px 0;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+  
+    .social-icons-mobile i {
+      font-size: 24px;
+      margin: 0 10px;
+      color: rgb(255, 145, 0);
+    }
+  }
+  
+  /* Desktop styles (optionnel si besoin d'ajustement plus tard) */
 
-.navibara{
-    background-color: rgb(12, 6, 41);
-}
-ul li a{
-    color: black;
-}
-ul li a:hover{
-    color:rgb(255, 145, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.incons i{
-    margin: 20px;
-}
-.titre{
-    color:rgb(255, 145, 0);
+  
+  /* navbar */
+.titres{
+    color:rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .image1 {
@@ -86,14 +112,25 @@ ul li a:hover{
     width: 210vh;
     /* height: 95vh; */
  } 
+
+
+ /* abouts */
 .abouts_Liste{
     
     /* background-color:rgb(255, 145, 0); */
     text-align: left;
     color: rgb(34, 33, 33);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    margin-left: 70px;
 }
+.image_abouts{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+/* --- RESPONSIVE POUR FORMULAIRE ET ABOUT SECTION --- */
+
+  
+/* .abouts_Liste */
 span{
     color:rgb(255, 145, 0);
 }
@@ -101,13 +138,37 @@ span h4{
     color:rgb(255, 145, 0);
     margin-top: 5%;
 }
-.dddd{
-   
-    margin:0px 55px;
-     
-}
 .ddd{
+    padding-left: 5%; 
+    
+}
+
+/* .ddd{
     margin:0px 55px; 
+    
+}
+
+.ddd li:hover{
+   
+    background-color:rgb(255, 145, 0);
+    text-align: center;
+    border: 7px rgb(255, 255, 255) solid;
+    color:rgb(255, 255, 255);
+
+}
+.ddd span:hover{
+    background-color:rgb(245, 241, 235);
+    text-align: center;
+    border: 7px rgb(255, 255, 255) solid;
+    color:rgb(255, 255, 255);
+
+} */
+/* service  */
+
+.dddd{
+    margin-left: 30%;
+    /* background-color: red; */
+    width:103%;
 }
 .dddd li:hover{
    
@@ -131,11 +192,14 @@ span h4{
 .dddd li i{
     font-size: 8vh;
 }
+
+
 .ddd li i{
     font-size: 8vh;
 }
 
 .ddd li{
+    box-shadow: 2px 1px 10px rgb(212, 209, 209);
     text-align: center;
     width: 150px;
     height: 150px;
@@ -143,16 +207,29 @@ span h4{
     margin:10px ;
     display: inline-block;
     border: 7px rgb(153, 152, 152) double;
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
    
 }
+.ddd li:hover{
+    box-shadow: 2px 1px 15px rgb(212, 209, 209);
+    transform: translateY(-6px);
+    box-shadow: 4px 4px 25px rgba(100, 100, 100, 0.2);
+
+}
+
 
 
 
 /* room */
 .dd{
     padding:10px ;
+    /* background-color: red; */
+    width: 101%;
 }
 .dd li{
+    
+    margin-left:10px ;
     box-shadow: 2px 1px 10px rgb(82, 82, 82);
     border: 2px transparent solid;
     width: 28%;
@@ -174,13 +251,18 @@ span h4{
     padding: 1%;
 }
 
-.dd img{
+.dd .imag3{
     margin-top: -3%;
     background-color: brown;
-    width: 100% !important;
-    height: 25%;
-    
 }
+/* .dd img{
+    margin-top: -3%;
+    background-color: brown;
+    
+    width: 100% !important;
+    height: 100% !important;
+    
+} */
 span {
     color:rgb(255, 145, 0);
     
@@ -188,7 +270,7 @@ span {
 }
 .dd .icons{
     font-size: 16px;
-    
+    background-color: rgb(255, 145, 0);
 }
 .hh{
     padding:20px ;
@@ -208,7 +290,7 @@ span {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
     border: none;
     color: white;
     font-size: 36px;
@@ -231,3 +313,32 @@ span {
 .arrow-button.right {
     right: 20px;
 }
+
+
+
+
+#butonenoyer {
+    background-color: rgb(255, 145, 0);
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 10px rgba(255, 145, 0, 0.4);
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#butonenoyer:hover {
+    background-color: rgb(230, 120, 0);
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(255, 145, 0, 0.6);
+    transform: translateY(-6px);    
+    box-shadow: 4px 4px 25px rgba(100, 100, 100, 0.2);
+}
+
+
